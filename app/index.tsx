@@ -13,7 +13,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>ahem ahem</Text>
+      <Text>achoooo</Text>
       <StatusBar style="auto"/>
     </View>
   );
