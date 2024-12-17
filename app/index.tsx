@@ -1,10 +1,8 @@
-import { Text, View } from "react-native";
-import { StatusBar
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import { Link } from 'expo-router'
 
- } from "expo-status-bar";
-
-
-export default function Index() {
+const index = () => {
   return (
     <View
       style={{
@@ -14,7 +12,12 @@ export default function Index() {
       }}
     >
       <Text>achoooo</Text>
-      <StatusBar style="auto"/>
+      <StatusBar />
+      <Link href="/profile" style={ {color: 'blue'} }> Go to Profile Page </Link>
     </View>
   );
 }
+
+export default index
+
+const styles = StyleSheet.create({})
