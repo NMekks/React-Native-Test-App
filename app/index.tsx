@@ -4,8 +4,9 @@ import { Link } from 'expo-router'
 
 const index = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-black">
-      <Text>achoooo</Text>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}
+    >
+      <Text className="text-3xl">achoooo</Text>
       <StatusBar />
       <Link href="/profile" style={ {color: 'blue'} }> Go to Profile Page </Link>
     </View>
