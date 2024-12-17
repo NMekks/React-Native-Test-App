@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>bas ana ma kontesh motakhayel inik tesebini ya farida!! aa!</Text>
+      <Text>ahem ahem</Text>
     </View>
   );
 }
